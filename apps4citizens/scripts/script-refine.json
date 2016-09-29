@@ -1,0 +1,409 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column APP",
+    "columnName": "APP"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Android",
+    "columnName": "Android"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column iOS",
+    "columnName": "iOS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ID",
+    "columnName": "ID"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Global",
+    "columnName": "Global"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Global País",
+    "columnName": "Global País"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column City 1",
+    "columnName": "City 1"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column City 2",
+    "columnName": "City 2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Webapp",
+    "columnName": "Webapp"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column2",
+    "columnName": "Column2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column3",
+    "columnName": "Column3"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column4",
+    "columnName": "Column4"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column5",
+    "columnName": "Column5"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column6",
+    "columnName": "Column6"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column7",
+    "columnName": "Column7"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column11",
+    "columnName": "Column11"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column10",
+    "columnName": "Column10"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column12",
+    "columnName": "Column12"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column8",
+    "columnName": "Column8"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column9",
+    "columnName": "Column9"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column13",
+    "columnName": "Column13"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column País to position 0",
+    "columnName": "País",
+    "index": 0
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column Temática 1",
+    "columnName": "Temática 1",
+    "keyColumnName": "País",
+    "separator": ", "
+  },
+  {
+    "op": "core/transpose-columns-into-rows",
+    "description": "Transpose cells in columns starting with Temática 1 into rows in two new columns named tematica and valor",
+    "startColumnName": "Temática 1",
+    "columnCount": -1,
+    "ignoreBlankCells": true,
+    "fillDown": false,
+    "keyColumnName": "tematica",
+    "valueColumnName": "valor"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column tematica",
+    "columnName": "tematica"
+  },
+  {
+    "op": "core/row-reorder",
+    "description": "Reorder rows",
+    "mode": "record-based",
+    "sorting": {
+      "criteria": [
+        {
+          "reverse": false,
+          "column": "País",
+          "caseSensitive": false,
+          "valueType": "string",
+          "blankPosition": 2,
+          "errorPosition": 1
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/blank-down",
+    "description": "Blank down cells in column País",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "País"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column País",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "País"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column valor",
+    "columnName": "valor",
+    "keyColumnName": "País",
+    "separator": ", "
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column valor using expression value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "valor",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column control at index 2 based on column valor using expression grel:cells[\"País\"].value+\"-\"+cells[\"valor\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "control",
+    "columnInsertIndex": 2,
+    "baseColumnName": "valor",
+    "expression": "grel:cells[\"País\"].value+\"-\"+cells[\"valor\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/row-reorder",
+    "description": "Reorder rows",
+    "mode": "record-based",
+    "sorting": {
+      "criteria": [
+        {
+          "reverse": false,
+          "column": "control",
+          "caseSensitive": false,
+          "valueType": "string",
+          "blankPosition": 2,
+          "errorPosition": 1
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/blank-down",
+    "description": "Blank down cells in column control",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "control"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "control",
+          "selectBlank": true,
+          "columnName": "control",
+          "omitBlank": false,
+          "type": "list",
+          "selection": []
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column control",
+    "columnName": "control"
+  },
+  {
+    "op": "core/blank-down",
+    "description": "Blank down cells in column País",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "País"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column categoria-enlace at index 2 based on column valor using expression grel:value.toLowercase().replace(\" \",\"-\").replace(\",\",\"\").replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "categoria-enlace",
+    "columnInsertIndex": 2,
+    "baseColumnName": "valor",
+    "expression": "grel:value.toLowercase().replace(\" \",\"-\").replace(\",\",\"\").replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column countryHTML at index 1 based on column País using expression grel:value.toLowercase().replace(\"ñ\",\"n\").replace(\" \",\"-\").replace(\",\",\"\").replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "countryHTML",
+    "columnInsertIndex": 1,
+    "baseColumnName": "País",
+    "expression": "grel:value.toLowercase().replace(\"ñ\",\"n\").replace(\" \",\"-\").replace(\",\",\"\").replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column País",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "País"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column countryHTML",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "countryHTML"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column itemHTML at index 4 based on column categoria-enlace using expression grel:\"<li><a href='http://appteca.apps4citizens.org/?fwp_tematica=\"+value+\"&fwp_ambito_geografico=apps4\"+cells[\"País\"].value+\"'>\"+cells[\"valor\"].value+\"</a></li>\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "itemHTML",
+    "columnInsertIndex": 4,
+    "baseColumnName": "categoria-enlace",
+    "expression": "grel:\"<li><a href='http://appteca.apps4citizens.org/?fwp_tematica=\"+value+\"&fwp_ambito_geografico=apps4\"+cells[\"País\"].value+\"'>\"+cells[\"valor\"].value+\"</a></li>\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column itemHTML to position 3",
+    "columnName": "itemHTML",
+    "index": 3
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column itemHTML to position 2",
+    "columnName": "itemHTML",
+    "index": 2
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column itemHTML to position 1",
+    "columnName": "itemHTML",
+    "index": 1
+  },
+  {
+    "op": "core/blank-down",
+    "description": "Blank down cells in column País",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "País"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column itemHTML",
+    "columnName": "itemHTML",
+    "keyColumnName": "País",
+    "separator": " "
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column itemHTML using expression grel:if(isBlank(value),null,\"<ul>\"+value+\"</ul>\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "itemHTML",
+    "expression": "grel:if(isBlank(value),null,\"<ul>\"+value+\"</ul>\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column countryHTML",
+    "columnName": "countryHTML"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column valor",
+    "columnName": "valor"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column categoria-enlace",
+    "columnName": "categoria-enlace"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": true,
+          "name": "itemHTML",
+          "omitBlank": false,
+          "columnName": "itemHTML",
+          "type": "list",
+          "selection": []
+        }
+      ],
+      "mode": "row-based"
+    }
+  }
+]
