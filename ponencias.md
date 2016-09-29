@@ -38,7 +38,7 @@ Hay un sistema de alertas en el que el usuario puede suscribirse y TIPI le resum
 
 El espíritu es que sea en abierto y el código está abierto para quien lo necesite. En Argentina están tomando fotos a los expedientes para evitar el “escrapeo”. Por sites como Os oigo o Change.org se entiende que la información debe compartirse. Se han incluido en el diccionario de TIPI expresiones políticamente incorrectas como llamar viejos a los ancianos. Con los nuevos partidos, con organizaciones feministas, también han incorporado nuevos lenguajes para describir las nuevas realidades y contribuir a la creación de nuevos discursos. En españa es legal el “escrapeo” salvo en el poder judicial.
 
-##Sisi Wei: [Propublica](http://www.propublica.org/):##
+##Sisi Wei: [Propublica](http://www.propublica.org/)##
 
 [Sisi Wei](http://twitter.com/sisiwei) Es desarrolladora de aplicaciones de noticias en [Propublica](http://www.propublica.org/) y ha sido premiada por [Mejor Portfolio](http://community.globaleditorsnetwork.org/content/individual-portfolio-sisi-wei-0)  en los premios internacionales de Periodismo de Datos. Sisi Wei explica que Propublica no tiene la misma estructura que el resto de organizaciones en los Estados Unidos, y todo va por *crowdfunding*. A partir de ahí, crean artículos y aplicaciones. Esto implica que sea público y *creative commons*. Explica cómo han manejado con grandes datasets sociales para la gente con el ejemplo [***Surgeon Scorecard***](http://projects.propublica.org/surgeons/). 
 
