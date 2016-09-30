@@ -8,7 +8,7 @@ Descripción de los trabajos seleccionados para [Visualizar’16](http://mediala
 
 El Centro de Recursos de Madrid podría ser un prototipo para que el Ayuntamiento piense en una **mejor forma de disponer de los recursos**: Unos se verán de forma más clara y otros no tanto, por lo que se pretende la optimización. Es un proyecto que ya se enfocó y materializó en Visualizar 15'.
 
-**Integrantes:** [Greg Bloom](http://gregbloom.org/), [Alejandro Zappala](http://github.com/alayzappala), [Adolfo Antón](http://github.com/flowsta), Elisabeth Pilluela, Alma Orozco. 
+**Integrantes:** [Greg Bloom](http://gregbloom.org/), [Alejandro Zappala](http://github.com/alayzappala), [Adolfo Antón](http://github.com/flowsta), Elisabeth Pilluela, Alma Orozco, [Encar Espejo](https://twitter.com/geoencar)
 
 ##*Fab City Dashboard*
 
