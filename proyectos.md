@@ -10,7 +10,7 @@ El Centro de Recursos de Madrid podría ser un prototipo para que el Ayuntamient
 
 **Integrantes:** [Greg Bloom](http://gregbloom.org/), [Alejandro Zappala](http://github.com/alayzappala), [Adolfo Antón](http://github.com/flowsta), Elisabeth Pilluela, Alma Orozco. 
 
-##*Fab City Dashboard*## 
+##*Fab City Dashboard* ## 
 
 > "*Fab City* es un proyecto global para el **desarrollo de ciudades que sean autosuficientes y productivas a nivel local y conectadas globalmente hacia un nuevo modelo urbano** donde las ciudades encuentran y utilizan recursos localmente, junto con el reciclaje de materiales y al enfrentarse a las necesidades locales a través de la inventiva y participación local. la importación y exportación de una ciudad serían entonces en su mayoría en forma de datos (información, conocimiento, diseño, código). De esta manera, los ciudadanos y las ciudades aumentan su **resiliencia con un sistema más ecológico** debido a la reducción de los flujos de materiales, el consumo de energía asociado y las emisiones de carbono típicos de la economía actual."
 
@@ -18,7 +18,7 @@ El Centro de Recursos de Madrid podría ser un prototipo para que el Ayuntamient
 
 **Integrantes:** [Mariana Quintero](http://github.com/mqvlm), [Julien París](http://github.com/julienparis), [Massimo Menichinelli](http://github.com/openp2pdesign)
 
-##*LiQen Project*##
+##*LiQen Project* ##
 
 > "El proyecto busca construir un prototipo de una red de colaboración y aplicación móvil que permitirá a los ciudadanos para empujar los datos recogidos para señalar los problemas ambientales en su ciudad, incluidos los problemas de basura, la contaminación acústica, contaminación visual, la contaminación atmosférica, etc. La aplicación va a **representar a los conflictos ambientales en la ciudad y agregar datos *crowdsourced* a las bases de datos abiertas locales**, con la posibilidad de modificar, editar o reemplazar los datos ya existentes. Como una innovación importante, los ciudadanos recibirán información en tiempo real para determinar si la información ya recogida en la base de datos existe."
 
@@ -34,7 +34,7 @@ Este proyecto plantea cuáles son los alcances nunca tenidos en cuenta en la **r
 
 **Integrantes:** Elisa Cuesta, [Agustín Frizzera](http://twitter.com/agustinfrizzera), [Christian Díaz](http://twitter.com/christianeldiaz), [Marcos Rojas](http://twitter.com/marsrs)
 
-##*Urban art side B*. ARRE (Arte, Arquitectura y Reutilización)##
+##*Urban art side B*. ARRE (Arte, Arquitectura y Reutilización) ##
 
 > "Buscamos intervenir el **espacio a través de la mínima transformación** (intentando que nuestra huella pase desapercibida), utilizando siempre materiales que ya se encuentran en el lugar y tratando de respetar el entorno, resaltando su **valor medio medioambiental y estético**. Los espacios en desuso de la arquitectura y la necesidad de ser observados y reutilizados,se convierten en nuestro principal generador de actividad."
 
@@ -42,7 +42,7 @@ Este proyecto plantea cuáles son los alcances nunca tenidos en cuenta en la **r
 
 **Integrantes:** Jacobo Jörgensen, [Nieves Rivas](http://twitter.com/nievesrivasg)
 
-##*Stadatus*##
+##*Stadatus* ##
 
 > "Este proyecto pretende **representar de manera visual el grado de cumplimiento de la “Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno.”** Teniendo en cuenta como criterios de evaluación la facilidad de acceso a la información, la calidad y la frecuencia de actualización de los datos."
 
@@ -50,7 +50,7 @@ Tras trabajos previos de transparencia y la dificultad de acceso a cierta inform
  
 **Integrantes:** [Llorenç Vaquer](http://github.com/lvaquer), [Samuel Ortiz](http://github.com/iamsortiz), Nathalie Voeten
 
-##Mapa de iniciativas##
+##Mapa de iniciativas ##
 
 > "Esta plataforma nos ha aportado dos aprendizajes: por un lado, más allá de las *apps*, hay otras herramientas con usabilidad vía web, muy relevantes para el activismo social y político que, con un marco de difusión más amplio, podrían tener mayor impacto en la ciudadanía; por otro lado, las herramientas destacables son aquellas que promueven el código reutilizable, datos abiertos, licencias de contenido libres, etc. En resumen, la **tecnopolítica debe favorecer estructuras de creación** más justas e igualitarias socialmente."
 
