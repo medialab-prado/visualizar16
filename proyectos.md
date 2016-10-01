@@ -24,7 +24,7 @@ El Centro de Recursos de Madrid podría ser un prototipo para que el Ayuntamient
 
 LiQen quiere construir una red de colaboración y aplicación móvil que represente los **conflictos móviles de la ciudad** y busca añadir **la participación ciudadana a las bases ya existentes** de cara a empoderar a todas las personas. Se añadirían conjuntos de datos híbridos entre los existentes a escala local junto a datos generados por usuarios. Es decir, añadir datos exitentes, deduplicar los datos generados y compartir los datos. Se necesita también un modelo conjunto uniforme para denunciar conflictos de carácter medioambiental, cuando la contaminación puede ser sobre todo de un tipo en un país y de una forma totalmente distinta en otro.
 
-**Integrantes:** [Cristian Hernández](http://github.com/crishernandezmaps), [Carlos Saito](https://github.com/exacs), [Carmen Reynoso](http://twitter.com/carmenreynoso13); [Maribel Mateos](http://github.com/maribel.mateosrosado); [Diego Ramirez](http://github.com/lowfill)
+**Integrantes:** [Cristian Hernández](http://github.com/crishernandezmaps), [Carlos Saito](https://github.com/exacs), [Carmen Reynoso](http://twitter.com/carmenreynoso13); [Maribel Mateos](http://github.com/maribel.mateosrosado); [Diego Ramirez](http://github.com/lowfill); [Miguel Rubiales](http://indaga.org)
 
 ##Comportamiento de Visitantes en instituciones culturales
 
