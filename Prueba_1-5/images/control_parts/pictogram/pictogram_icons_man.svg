@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+<g id="stop">
+	<g>
+		<g>
+			<path fill="#010101" d="M23.423,5.423c0,1.891-1.532,3.423-3.423,3.423s-3.423-1.533-3.423-3.423C16.577,3.533,18.109,2,20,2
+				S23.423,3.533,23.423,5.423z"/>
+			<path fill="#010101" d="M23.423,11.128h-6.846c-1.26,0-2.282,1.022-2.282,2.282v11.41h2.282v13.693h2.853V24.82h1.141v13.693
+				h2.853V24.82h2.282V13.41C25.705,12.15,24.684,11.128,23.423,11.128z"/>
+		</g>
+	</g>
+</g>
+</svg>
