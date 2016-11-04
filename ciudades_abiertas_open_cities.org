@@ -1,0 +1,420 @@
+#+CATEGORY: proyecto, curro, medialab-prado
+#+TAGS: transparencia, participación ciudadana, open data, datos abiertos
+#+DESCRIPTION: Agenda del proyecto de Transparencia y participación ciudadana de Medialab-Prado
+#+TITLE: Visualizar16: ciudades abiertas, open cities
+#+DATE: [2016-05-20 vie 09:30]
+#+AUTHOR: Adolfo Antón Bravo
+#+EMAIL: adolflow@infotics.es
+#+OPTIONS: todo:nil pri:nil tags:nil ^:nil 
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_mathjax:t reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: sky
+#+REVEAL_HLEVEL: 2
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Org-Reveal Introduction.">
+#+REVEAL_POSTAMBLE: <p> Creado por adolflow. </p>
+#+REVEAL_PLUGINS: (highlight markdown notes)
+#+REVEAL_EXTRA_CSS: file:///home/flow/Documentos/software/reveal.js/css/reveal.css
+#+REVEAL_ROOT: file:///home/flow/Documentos/software/reveal.js/
+
+
+* Intro
+
+#+BEGIN_QUOTE
+“[...] something has gone wrong, radically wrong, in our conception of what a city itself should be. Perhaps those nice words --clean, safe, efficient, dynamic–are not enough in themselves to confront critically our masters”
+Richard Sennet, The Open City.
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+“This next decade belongs to distributed models not centralized ones, to collaboration not control, and to small data not big data”. 
+Rufus Pollock, Forget Big Data, Small Data is the Real Revolution. 
+#+END_QUOTE
+
+Del 26 de septiembre al 3 de octubre se celebra la convocatoria internacional *Visualizar16* con el
+epígrafe de /Ciudades abiertas, Open Cities/. Durante diez días,
+ocho equipos multidisciplinares realizarán ocho proyectos de
+visualización de datos de las ciudades.
+
+Los proyectos serán seleccionados de una convocatoria de ideas que comenzará el 24 de
+junio y concluirá el 14 de julio. A continuación se publicarán los
+proyectos seleccionados y se abrirá la convocatoria de participantes
+hasta una semana antes del inicio del taller, el 19 de septiembre.
+
+Los proyectos realizados se presentarán durante el [[http://opencitiessummit.org][Open Cities Summit]],
+*cumbre mundial de las ciudades abiertas* que se celebra en
+Medialab-Prado el 5 de octubre y que se enmarca en las actividades
+previas de la [[http://opendatacon.org][Conferencia Internacional de Datos Abiertos]], #IODC16, que
+se celebra en Madrid los días 6 y 7 de octubre.
+
+Al concluir el /Open Cities Summit/, los trabajos quedarán expuestos
+en Medialab-Prado.
+
+* Ciudades abiertas, /Open Cities/
+
+Cada vez más ciudades en el mundo ponen en marcha y desarrollan políticas de datos abiertos y transparencia, publicando catálogos de datos relacionados con los propios procesos administrativos (presupuestos, licitaciones, planes), las infraestructuras y el uso que los ciudadanos hacen de ellas, las condiciones medio-ambientales, los servicios socio-culturales,etc.  Estas colecciones de datos pueden ser analizados de diferentes maneras para mejorar la planificación urbana y el bienestar en la ciudad, así como para adaptar el funcionamiento de las infraestructuras y los servicios públicos a las necesidades de sus habitantes. 
+
+Pero más allá de esta idea de planificación, eficiencia y monitorización de lo urbano, cuando hablamos de “ciudades abiertas” hablamos de cómo estas “ciudades de los datos” pueden ser vividas por su habitantes de maneras diversas y críticas, alimentando un ecosistema complejo y rico en el que los usos, las necesidades y los deseos pueden redefinirse continuamente. 
+
+A través de esta convocatoria se propone el envío de propuestas que exploren esta perspectiva ciudadana, local y situada de uso de los datos, desde ámbitos tan diversos como la sostenibilidad medioambiental, el funcionamiento de las infraestructuras, la actividad socio-cultural o el entorno de los cuidados.
+
+Los proyectos presentados podrán consistir en:
+
+- Creación de aplicaciones que filtren, analicen y presenten conjuntos
+  de datos específicos relacionados con el ámbito local
+- Recogida ciudadana de datos de la ciudad
+- Desarrollo de herramientas de open hardware para la recogida de
+  datos
+- Diseño de procesos o plataformas para la deliberación colectiva
+  basada en el uso de datos del ámbito local
+
+Visualizar’16 se integra dentro del programa de actividades paralelas
+del Congreso Internacional de Datos Abiertos, que se celebra en Madrid
+los días 6 y 7 de octubre de 2016. Los prototipos resultantes del
+taller se presentarán en el encuentro internacional Open Cities
+Summit, que tendrá lugar el 5 de octubre también en Medialab-Prado
+como parte del programa de IODC16.
+
+* Abrir las ciudades
+
+A lo largo de la historia contemporánea, el término /ciudades
+abiertas/ ha adoptado varios y variados significados.
+
+Durante la Segunda Guerra Mundial las ciudades que se rendían a los
+ejércitos que pretendían invadirlas e incorporarlas al territorio
+conquistado por el bando contrario se denominaban /ciudades
+abiertas/. De esta forma se pretendían salvar vidas humanas, pero
+también preservar el patrimonio cultural de la ciudad. Esto se recoge
+en la Convención de Ginebra, que prohibe el ataque sobre una ciudad
+que no se defiende.
+
+La ciudad anunciaba en grandes pancartas su estado como ciudad
+abierta, y así ocurrió en Bruselas o París, pero a veces el bando
+atacante se saltaba esa consideración y arrasaba, como hicieron los
+alemanes en Belgrado o los japoneses en Manila.
+
+https://upload.wikimedia.org/wikipedia/commons/7/7c/Manila_declared_open_city.jpg
+https://en.wikipedia.org/wiki/File:Manila_declared_open_city.jpg
+
+La película /Roma città aperta/ de Roberto Rosellini inauguraba el
+neorrealismo italiano con la historia de los últimos días de la
+ocupación alemana de la ciudad de Roma durante la Segunda Guerra
+Mundial, rodada durante 1945.
+ 
+En 1977 el grupo antibélico japonés "National Open City Declaration
+Movement Network" propuso que las ciudades se declararan /ciudades
+abiertas/ incluso aunque no nos encontráramos en periodo de guerra,
+como declaración simbólica.
+
+¿Qué no ocurrió durante finales de los 1960 y 1970? La cultura hacker
+se manifestaba con el lanzamiento del proyecto GNU en 1983 y dos años
+más tarde su creador, Richard Stallman, creaba la Free Software
+Foundation para dar soporte a la iniciativa.
+
+A lo largo de los noventa, con el nacimiento y desarrollo de la Web,
+la apertura del acceso a contenidos de todo tipo introduce en la
+opinión pública los conceptos de acceso, apertura y libertad. En el
+caso del software, nace la iniciativa Open Source Initiative fundada
+por Bruce Perens y Eric Raymond en 1998. Sin desvincularse
+radicalmente del software libre, sí que aporta unos 
+matices que son aprovechados por las empresas de software propietario
+para matizar la dicotomía entre libre y por tanto abierto y
+propietario y privativo y por tanto cerrado. Si en el software libre
+se habla de libertad, en el software abierto la libertad está limitada.
+
+Ciertamente la licencia GPL es la más radical y abierta de las
+licencias, y su respaldo legal se trasladó a otros ámbitos como la
+producción cultural con las licencias Creative Commons, la educación
+(Open Education) y el acceso abierto (Open Access) a documentación científica. Y
+finalmente, el gobierno abierto. Desde la primera Ley de Libertad de Información de EE.UU. en
+1966 se sucedieron en los países occidentales leyes similares:
+Dinamarca y Noruega (1970), Francia y Holanda (1978), Reino Unido
+(2000), Japón y México (2002), India y Alemania (2005) o España
+(2013). La diferencia de años entre unos y otros países explica en parte el
+desarrollo del periodismo de investigación y de los trabajos
+realizados con datos abiertos. Ya en la primera década del siglo XXI
+se realizaron las primeras leyes de gobierno abierto que implican transparencia, participación y
+colaboración.
+
+* Visualizar datos (abiertos)
+
+En 2007, miembrxs de la comunidad /opensource/ realizaron una conferencia
+de la que resultaron ocho principios para los datos abiertos del
+sector público. Con este bautizo nace el *movimiento de los datos
+abiertos*. Uno de sus participantes, Adrian Holovaty, [[http://medialab-prado.es/article/visualizar_taller_avanzado_de_desarrollo_y_produccion_de_proyectos][participaba unos
+días antes]] en Medialab-Prado en la primera edición de
+[[http://medialab-prado.es/visualizar][Visualizar]], el taller internacional que pretende crear un entorno de trabajo
+colaborativo y transdisciplinar para el desarrollo de proyectos de
+visualización de datos. 
+
+La visualización de datos es una disciplina transversal que utiliza el inmenso poder de comunicación de las imágenes para explicar de manera comprensible las relaciones de significado, causa y dependencia que se pueden encontrar entre las grandes masas abstractas de información que generan los procesos científicos y sociales. Surgida en el ámbito científico hace dos décadas, la ‘infovis’ o ‘datavis’ combina estrategias y técnicas de la estadística, el diseño gráfico y de interacción, y el análisis computacional para crear un nuevo modelo de comunicación más adecuado y esclarecedor para la era de la complejidad emergente.
+
+En los últimos años, las estrategias y estéticas de la visualización de datos se han introducido paulatinamente en ámbitos sociales cada vez más amplios. El análisis de las relaciones entre datos y su representación visual ha trascendido ya sus orígenes científicos y se presenta como un lenguaje con grandes potencialidades en un contexto en que, como ha planteado Lev Manovich, la base de datos se está convirtiendo en la próxima forma cultural en ascendencia.
+
+* La ciudad y los datos públicos
+
+La segunda edición de Visualizar en 2008 se centró precisamente en *la
+ciudad como base de datos*. Pretendíamos aprender de los entornos
+urbanos, cada vez más densos, complejos, y diversos, trasladando a la
+ciudad las ideas de Manovich, ya que es en la ciudad o en torno a ella donde se produce en la sociedad contemporánea, volúmenes de información diaria que requieren de nuevos métodos de análisis y comprensión.
+
+En esa ocasión, pensábamos que podríamos usar los recursos de la
+visualización de datos y el diseño de la información para comprender
+los procesos que gobiernan las ciudades contemporáneas y gestionarlas
+mejor, y también reproducir esos datos por toda la ciudad con
+información actualizada en tiempo real.
+
+Para 2009 los datos públicos abiertos comenzaban a ser una realidad en algunos países y algunas instituciones, y se consolidaba el movimiento por el acceso abierto /Open Access/ de los datos de la investigación científica, por lo que los incorporamos a la convocatoria denominándola *Datos públicos, datos en público*.
+
+En su primer día como presidente de Estados Unidos, Barack Obama
+(2009) firmó un memorando en favor de las prácticas de gobierno
+transparentes y abiertas y a los pocos meses entró en funcionamiento
+[[http://data.gov][Data.gov]], un portal en que la administración proporciona acceso en
+formatos estándares reutilizables a múltiples conjuntos de datos generados por las distintas agencias gubernamentales.
+
+El movimiento por el acceso abierto (/open access/) se rubrica en 2004
+cuando los ministros de ciencia de todos los países de la OCDE
+firmaron una declaración por la que se comprometían a que todos los
+datos financiados con dinero público deberían ser puestos a
+disposición de todxs lxs ciudadanxs. Además del valor social,
+económico y ciudadano, que nadie pone ya en duda, en el ámbito
+investigador tenía un valor adicional: hacer posible que otrxs científicxs
+inicien nuevos proyectos gracias a la disponibilidad de estos
+datos y frenar la investigación que aunque financiada con dinero
+público quedaba en manos de empresas.
+
+Son los mismos principios que los datos abiertos: el acceso a
+los datos permite ahorrar recursos, evita la duplicación de esfuerzos
+y favorece el inicio, reelaboración o mayor complejidad de las investigaciones siguientes.
+
+Casualmente, fue en 2004 también cuando se creó la [[http://okfn.org][Open Knowledge Foundation]], organización
+dedicada a promover el conocimiento libre en todas sus formas.
+
+Con esa convocatoria pretendíamos el desarrollo de nuevas estrategias para comunicar estos datos y devolverlos a la esfera del dominio público.
+
+Pero las ciudades no dejan de estar insertas en un orden mundial de
+información que genera flujos constantes de datos. Y tanto la ciudad
+hacia dentro como hacia fuera utiliza grandes infraestructuras de
+comunicación. Consideramos la ciudad como un cuerpo cibernético por lo
+que si hacemos por [[http://medialab-prado.es/article/visualizar11_taller_seminario][comprender las infraestructuras]] (2011)
+comprenderemos mejor la ciudad.
+
+* Big Data, Small Data, Commoning Data
+
+Esa abundancia de datos nos acercaba a su vez a los datos masivos o
+/Big Data/. Por eso el año pasado y enmarcado en el programa [[http://medialab-prado.es/article/ojoaldata][Ojo al Data]], comenzamos a dar
+la vuelta a los datos y a la cultura de los datos. Ciudades
+inteligentes (/smart cities/), la computación y los servicios /en la
+nube/ (/cloud computing/ o /cloud services/) o el
+/Internet de las cosas/ (/IoT/) son conceptos cada vez más presentes
+en nuestra vida cotidiana. A su vez, la cantidad de datos que produce
+la investigación científica crece de manera exponencial, las
+infraestructuras y el comercio generan información trazable y
+representable y los medios sociales en la red han convertido a
+millones de ciudadanxs en grandes productores y reproductores de
+información, la mayor parte de las veces de forma inconsciente.
+
+Esta explosión de datos promete un mundo de eficiencia, innovación y
+personalización, un mundo cibernético. Pero al mismo tiempo hace surgir cuestiones críticas acerca de la seguridad y el control de los datos, la privacidad e intimidad de las personas o la gobernanza de las infraestructuras y el acceso a la información.
+
+En este contexto surgen, tanto desde la sociedad civil como desde las
+administraciones públicas, desde el entorno académico o desde el mundo
+empresarial, movimientos que promueven los datos abiertos (/Open
+Data/), el acceso a los datos y su reutilización desde las ideas de la
+innovación abierta, la ciencia ciudadana, la transparencia, la
+rendición de cuentas o los derechos humanos.
+
+Desde Medialab y desde el programa Visualizar nos preguntábamos el año
+pasado ya no sólo por quiénes y cómo se generan los datos sino también
+por el beneficio social, en términos de bienes comunes, podemos
+extraer de su producción y su análisis.
+
+Desde esta perspectiva surgen conceptos como /slow data/, que se
+refiere más a conversaciones, procesos o estrategias que a datos
+inmediatos, o /small data/, que resalta el potencial de las pequeñas
+bases de datos abiertas y conectadas y el cuidado artesanal en la
+producción, el análisis y la creación de historias con los datos.
+
+Igualmente, frente a los grandes servicios comerciales que extraen
+valor y monetizan los grandes conjuntos de datos, ese /Big Data/, en
+muchos casos generados por los propixs ciudadanxs, muchas voces ponen
+de relieve la necesidad de contar con unos /data commons/ a
+disposición de todxs, es decir, datos abiertos desde lxs mismxs
+productorxs de datos, que pueden convertirse también en
+co-responsables de su gestión, lo cual pone de relieve la capacidad creciente que tenemos de
+colaborar de manera efectiva compartiendo un ecosistema de bases de
+datos, sean grandes o pequeñas, conectadas o no, pero dinamizadas por
+usuarixs y comunidades que dan respuesta a desafíos concretos o
+locales.
+
+* Visualizar16: ciudades abiertas
+
+Por tanto, no nos referimos en esta convocatoria de Visualizar16,
+/Ciudades Abiertas/ solo a los datos abiertos de las ciudades sino
+también y sobre todo a laos datos que conscientemente lxs ciudadanxs
+deciden generar, controlar, recuperar, interpretar y compartir.
+
+Se podrán realizar, por ejemplo:
+
+- Herramientas de visualización que nos permitan entender cómo emplean
+  lxs ciudadanxs los espacios urbanos.
+- Herramientas de visualización que mapeen y representen la diversidad
+  social y cultural de las grandes ciudades.
+- Herramientas de visualización que muestren la relación entre los
+  espacios urbanos y las redes que los habitan.
+- Herramientas de visualización que representen la actividad que tiene
+  lugar en espacios concretos, y los muestren e integren como elemento
+  arquitectónico.
+- Proyectos que establezcan mecanismos de recogida participativa de
+  datos.
+- Proyectos que faciliten el uso y la comprensión de datos procedentes
+  de las administraciones públicas o de investigaciones científicas
+  académicas o no.
+- Proyectos que liberen datos públicos que no estaban en formatos
+  abiertos o que reutilizan los datos públicos abiertos para crear
+  nuevas formas de visualización y análisis de los mismos.
+- Prototipos que fomenten los procesos de innovación ciudadana y
+  procesos públicos de decisión y gobernanza.
+- Fórmulas de presentación de la información en el espacio público.
+
+Para esto, además de emplear formatos como aplicaciones de software,
+mapas o infografías, los proyectos presentados podrán utilizar la
+pantalla de LEDs instalada en la fachada de Medialab Prado con el fin
+de investigar qué clase de funciones pueden cumplir estos dispositivos
+para mejorar la comunicación y el diálogo con la ciudadanía.
+
+* Historia
+
+Desde 2007, el programa Visualizar de Medialab Prado investiga las
+implicaciones sociales, culturales y artísticas de la cultura de los
+datos, y propone metodologías para hacerlos más comprensibles y abrir
+caminos para la participación y la crítica. 
+
+Visualizar parte de la investigación iniciada por José Luis de Vicente
+en 2007 en torno a las estéticas de la representación de la
+información en el contexto de diversos festivales y exposiciones:
+/Randonee: Un paseo por el paisajismo del Siglo XXI/ (Exposición
+dentro de Sónar 2005, Barcelona, CCCB); /How to Do Things With Data -
+Cómo hacer cosas con Datos/, en OFFF 2006 (Barcelona, CCCB), y
+/Estética de Datos/ (Simposio dentro de ArtFutura 2006, Barcelona,
+Mercat de les Flors).
+
+En las cinco ediciones que se han celebrado hasta ahora, el programa Visualizar ha contado con figuras internacionales como Ben Fry, Aaron Koblin, Stamen, Fernanda Viegas, Adam Greenfield, Bestiario, Adrian Holovaty, Sunlight Foundation, Mark Hansen, Manuel Lima, Dietmar Offenhuber, Amber Frid-Jimenez, Andrew Vande Moere o Greg Bloom entre otros.
+
+
+  
+* Quiénes
+** Mentorxs
+*** Sisi Wei
+ProPublica Newsapps developer, desarrolladora de aplicaciones de
+noticias en ProPublica.
+*** Yuri Engelhardt
+[[http://yuriengelhardt.com/][Assistant professor]] and co–coordinator of the multidisciplinary data
+visualization curriculum at the University of Amsterdam. 
+** Invitadxs
+*** Gonzalo Abril
+[[http://pendientedemigracion.ucm.es/info/per3/profesores/gabril/][Doctor en Filosofía]], catedrático, profesor emérito en la Facultad de
+Ciencias de la Información de la Universidad Complutense de Madrid.
+*** Craig Mills
+- [[https://twitter.com/craigmmills][@craigmills]]
+CEO of Vizzuality: Visualising Good.
+*** Javier Pérez
+Director de CIECODE
+*** Mariano Salvador
+Director de la Fundación Zaragoza Ciudad del Conocimiento
+*** Sergio Leiva
+- [[https://twitter.com/saleiva?lang=es][@saleiva]]
+Jefe de producto en Carto.
+*** Alberto González
+
+* Agenda
+** Simposio: 26-27
+*** Inauguración, 2016/09/26
+- 9:30-10:00, recepción y café
+- 10:00-10:15, presentación de Visualizar'16, por Laura Fernández y
+  Adolfo Antón Bravo de Medialab-Prado.
+- 10:15-11:15, Visibilidad e invisibilidad, por Gonzalo Abril
+  (Universidad Complutense de Madrid).
+- 11:30-12:15, [[http://tipiciudadano.es/][TIPI ciudadano]]: Transparencia, información,
+  participación, incidencia, por Javier Pérez (CIECODE)
+- 12:15-13:00, debate
+- 13:00-14:30, comida
+- 14:30-15:30, presentación [[http://medialab-prado.es/article/visualizar16-proyectos-seleccionados][proyectos]]
+- 15:30-18:00, presentación colaboradores y formación de equipos
+- 18:00-18:30, merienda
+- 18:30-19:30, Dataviz projects, [[https://www.propublica.org/site/author/sisi_wei][Sisi Wei]]
+- 19:30-20:30, networking
+*** Segunda sesión, 2016/09/27
+- 9:30-10:00, desayuno
+- 10:00-13:00, trabajo de equipos
+- 13:00-14:30, comida
+- 14:30-18:00, trabajo de equipos
+- 18:00-18:30, merienda
+- 18:30-18:50, [[http://paseoproject.es/][Paseo Project]], por Mariano Salvador (Fundación Zaragoza
+  Ciudad del Conocimiento)
+- 18:50-19:10, Sergio Leiva (Carto)
+- 19:10-19:30, Alberto González (Quadrigram)
+- 19:30-19:50, Craig Mills ([[http://www.vizzuality.com/][Vizzuality]]): Visualising
+  Good. Visualisations reach every aspect of society, in every corner
+  of the world. In his talk Craig Mills, CEO of vizzuality will discuss how
+they are using data visualisation to shape people's perceptions of the
+planet. Dedicated to solving issues related to climate change,
+inequality, nutrition and transparent governments, Craig will show you
+how the White House prepares their counties for climate change, Kenyan
+farmers change the way they grow crops to save water, Swaziland health
+workers reduce malaria and how millions of people are monitoring every
+forest on the planet, all with the help of data visualisation. He'll
+also look at what is missing in the space of data visualisation and
+social good, and what vizzuality are trying to do to solve it. The
+talk will be dressed with some of the best interactive visualisations
+on the web, please come along and enjoy!
+- 19:50-20:30, debate y networking
+
+** Sesiones de trabajo en equipo: 28/9-3/10
+Esquema de los días 28 septiembre-3 de octubre, incluidos:
+
+- 9:30-10:00, desayuno			
+- 10:00-13:00, trabajo			
+- 13:00-14:30, comida			
+- 14:30-18:00, trabajo			
+- 18:00-18:30, merienda			
+- 18:30-20:30, talleres/libre
+
+El día 28 comenzarán las sesiones críticas, ronda de entrevistas con
+los equipos para analizar el esquema de trabajo planteado y realizar
+propuestas sobre el mismo.
+
+** Charlas/talleres 28/9-3/10
+ - 2016/10/01, 18:30-20:30, Charla de Visualización de datos, Ignasi
+   Alcalde (ODI Barcelona) 
+ - 2016/10/02, 18:30-20:30, Charla de datos abiertos, vocabularios y
+   ontologías, María Poveda (OEG-UPM y ODI-Madrid).
+ - 2016/10/03, 18:30-20:30, Taller de Carto, Ramiro Aznar (Carto)
+ - Standard and Open Data for Social and Community Services, Open
+   Referral, Greg Bloom.
+ - Los datos cartográficos como motores de los datos abiertos,
+   Alejandro Zappala (Adappgeo)
+ - Usabilidad de las aplicaciones de datos, Daniel Vila (OEG-UPM)
+
+** 4 de octubre
+Dia de finalización de proyectos.
+
+Además, se celebra en Medialab-Prado el /DDJ Action Day/, de
+periodismo de datos, en colaboración con [[http://schoolofdata.org][School of Data]], en Alameda0 y
+las Salas A y B, por lo que podremos trabajar en la finalización de los proyectos y/o
+disfrutar de los talleres o sesiones.
+
+** 5 de octubre
+
+Presentación pública de los proyectos desarrollados. Contaremos con 7
+minutos cada proyecto en dinámica Petcha Kucha
+
+Este día celebramos en Medialab el tercer evento previo oficial de
+IODC16, la cumbre de las ciudades abiertas o [[http://opencitiessummit.org][Madrid Open Cities Summit
+2016]]. Qué mejor evento que éste para realizar la presentación
+pública. Disponemos de una hora para los 8 proyectos.						
