@@ -1,10 +1,10 @@
 #+CATEGORY: proyecto, curro, medialab-prado
 #+TAGS: transparencia, participación ciudadana, open data, datos abiertos
 #+DESCRIPTION: Agenda del proyecto de Transparencia y participación ciudadana de Medialab-Prado
-#+TITLE: Visualizar16: ciudades abiertas, open cities
-#+DATE: [2016-05-20 vie 09:30]
+#+TITLE: Visualizar16: Ciudades Abiertas, Open Cities
+#+DATE: [2016-11-04 vie 12:30]
 #+AUTHOR: Adolfo Antón Bravo
-#+EMAIL: adolflow@infotics.es
+#+EMAIL: adolfo@medialab-prado.es
 #+OPTIONS: todo:nil pri:nil tags:nil ^:nil 
 
 #+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
@@ -33,7 +33,6 @@ También puedes poner cualquier cosa por el [[https://github.com/medialab-prado/
 Utiliza nuestros canales de comunicación:
 
 - Github: https://github.com/medialab-prado/visualizar16
-- Flickr: https://www.flickr.com/photos/medialab-prado/sets/72157673548708932/with/30123375116/
 - Mailman: http://listas.medialab-prado.es/cgi-bin/mailman/listinfo/visualizar16
 - Facebook: https://www.facebook.com/groups/1292149890804809/?fref=ts (grupo cerrado, requiere invitación)
 
@@ -49,6 +48,10 @@ Utiliza nuestros canales de comunicación:
 - https://github.com/fablabbcn/fab-city-dashboard
 - http://dashboard.fab.city/
 
+** Stadatus
+- GitHub: https://github.com/StaDatus
+- SlideShare: http://es.slideshare.net/LlorenVaquer/stadatus-visualizar16
+
 * Prensa
 - http://fablabbcn.org/news/2016/05/12/visualizar.html
 - http://www.makery.info/en/2016/09/27/le-medialab-de-makery-et-ping-a-visualizar16-open-cities/
@@ -60,7 +63,10 @@ Utiliza nuestros canales de comunicación:
 - Flickr: https://www.flickr.com/photos/medialab-prado/sets/72157673548708932/with/30123375116/
 
 * Vídeos
-- Playlist Visualizar16: https://www.youtube.com/playlist?list=PLwmovsmU1Kfn4UWU5nSe2EGehC8QiPoGd
+- Playlist Visualizar'16: https://www.youtube.com/playlist?list=PLwmovsmU1Kfn4UWU5nSe2EGehC8QiPoGd
+- Anuncio Visualizar'16: https://www.youtube.com/watch?v=GBC1NbGNA4Q
+- Seminario Visualizar'16, 26/9, mañana: https://www.youtube.com/watch?v=TW21_2FmeUQ
+- Seminario Visualizar'16, 26/9, tarde: 
 - Directorio abierto de recursos: https://www.youtube.com/watch?v=Hj6bVU1IpVw
 - Comportamiento público en instiuciones culturales: https://www.youtube.com/watch?v=beJ2NtT9sFg
 - Apps for Citizens: https://www.youtube.com/watch?v=s4FDJQ45TGY
