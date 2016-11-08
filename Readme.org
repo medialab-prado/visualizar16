@@ -58,6 +58,7 @@ Utiliza nuestros canales de comunicación:
 - http://www.publico.es/sociedad/ensanchar-democracia-golpe-dato.html
 - http://www.elperiodico.com/es/noticias/tecnologia/construyendo-mapa-iniciativas-tecnopoliticas-5497708
 - http://www.makery.info/en/2016/10/11/dix-jours-pour-visualiser-les-villes-ouvertes-a-madrid/
+- http://www.pingbase.net/res-sources/visualiser-lopen-data-pour-une-open-city
 
 * Imágenees
 - Flickr: https://www.flickr.com/photos/medialab-prado/sets/72157673548708932/with/30123375116/
