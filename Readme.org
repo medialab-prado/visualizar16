@@ -33,23 +33,22 @@ Bienvenidx al repositorio de [[http://medialab-prado.es/article/visualizar16-ciu
 - Github: https://github.com/medialab-prado/visualizar16
 - Flickr: https://www.flickr.com/photos/medialab-prado/sets/72157673548708932/with/30123375116/
 - Mailman: http://listas.medialab-prado.es/cgi-bin/mailman/listinfo/visualizar16
-- Facebook: https://www.facebook.com/groups/1292149890804809/?fref=ts
-  (grupo cerrado, requiere invitación)
-- Pad: http://pad.okfn.org/p/visualizar16, para cualquier evento o
-  enlace relacionado.
+- Facebook: https://www.facebook.com/groups/1292149890804809/?fref=ts, (grupo cerrado, requiere invitación)
+- Pad: http://pad.okfn.org/p/visualizar16, para cualquier evento o enlace relacionado.
 - Wiki: https://github.com/medialab-prado/visualizar16/wiki
 
 * Proyectos
 
 ** Gala
-- http://gala.muimota.net
+- Web: http://gala.muimota.net
 
 ** Liqen
-- https://github.com/crishernandezmaps/liqen-medialab
+- Web: http://liqenproject.org/#PRESENTATION
+- GitHub: https://github.com/crishernandezmaps/liqen-medialab
 
 ** Fab City Dashboard
-- https://github.com/fablabbcn/fab-city-dashboard
-- http://dashboard.fab.city/
+- GitHub: https://github.com/fablabbcn/fab-city-dashboard
+- Web: http://dashboard.fab.city/
 
 ** Stadatus
 - GitHub: https://github.com/StaDatus
@@ -66,7 +65,7 @@ Bienvenidx al repositorio de [[http://medialab-prado.es/article/visualizar16-ciu
 - http://www.makery.info/en/2016/10/11/dix-jours-pour-visualiser-les-villes-ouvertes-a-madrid/
 - http://www.pingbase.net/res-sources/visualiser-lopen-data-pour-une-open-city
 - http://wiki.apps4citizens.org/construyendo-mapa-iniciativas-tecnopoliticas/
-
+- http://clarity-csa.eu/blog/preparing-open-data-future-activities-and-projects-transparency-and-e-governance-iodc16
 
 
 * Vídeos
