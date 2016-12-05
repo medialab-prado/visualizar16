@@ -1,10 +1,10 @@
-#Ponencias#
+# Ponencias
 
 Charlas realizadas en [Visualizar'16](http://medialab-prado.es/article/agenda-visualizar16) ordenadas por fecha y hora.
 
-##Gonzalo Abril: Visibilizar e invisibilizar##
+## Gonzalo Abril: Visibilizar e invisibilizar
 
-“Anotaciones profanas” es el título de la charla de Gonzalo Abril. ‘Profano’ significa lo que está fuera del templo. Lo contrario a profano es fanático. Todos somos profanos y fanáticos según a qué cosas. Plantea “preguntas para resistirnos al presente”, como decía Deleuze:
+>“Anotaciones profanas” es el título de la charla de Gonzalo Abril. ‘Profano’ significa lo que está fuera del templo. Lo contrario a profano es fanático. Todos somos profanos y fanáticos según a qué cosas. Plantea “preguntas para resistirnos al presente”, como decía Deleuze:
 
 Según el primer diccionario de la lengua española, **‘informar’ es dar forma**. Rendir testimonio ante un juez. No aparece en el de Covarrubias pero sí en la Espasa. Covarrubias define información como "hacer que alguien esté enterado de un caso". En un momento dado, uno puede recabar datos e información no estructurada. Es posible que esos datos hayan sido clasificados desde algún poder, no hay que dejarse engañar por su apariencia desclasificada o atomística. Detrás muchas veces hay formas de estructuración invisibles, el problema es el del archivo:
 
@@ -27,7 +27,7 @@ Hasta el siglo XII el libro se basaba en una concepción teológica o bien para 
 "Leer tiene algo de sagrado porque participa místicamente en un acto de culto". Tanto la producción como la comprensión se consideran experiencias que requieren de un esfuerzo, de fatiga. Algo que hoy en día no se da, sobre todo en cuanto a la producción, que es todo lo contrario. A partir del siglo XII se empieza a entender como mina o almacén al texto. Es importante que los propios sujetos que se ven concernidos en ese archivo participen en su creación. 
 
 
-##Javier Pérez: [TIPI](http://tipiciudadano.es)##
+## Javier Pérez: [TIPI Ciudadano](http://tipiciudadano.es)
 
 [Javier Pérez](http://twitter.com/javipe_ciecode) pide imaginar a los asistentes que sean periodistas, y a partir de ahí realiza unas preguntas: **¿Cómo se está dando respuesta desde la política española a la pobreza? ¿Cómo se está tratando esto en el Congreso de los diputados?** No es fácil si no somos medianamente expertos a las políticas que se hacen sobre estos temas. No es sencillo ver qué políticos están más a favor o en contra de estas políticas. 
 
@@ -37,6 +37,8 @@ Se han tratado **21 temas**: educación, transparencia en el acceso a la info, p
 Hay un sistema de alertas en el que el usuario puede suscribirse y TIPI le resume lo que ha ocurrido. El origen: una convocatoria del gobierno de Noruega para fortalecer las capacidades de las asociaciones del sur de Europa; como la ayuda al desarrollo pero para España. Hace falta que la ciudadanía tenga la info suficiente para tener a los políticos vigilados. Ciudadanía exigente, crítica y participativa. Es uno de los objetivos, el de empoderar a las organizaciones sociales, sobre todo a las que no son enormes y en las que la información es una gran barrera porque falta personal. Hacen falta responsables políticos que se sientan vigilados, que tengan que rendir cuentas. Es decir, que se pueda conocer el trabajo de los buenos políticos y de aquellos que no lo hacen bien. 
 
 El espíritu es que sea en abierto y el código está abierto para quien lo necesite. En Argentina están tomando fotos a los expedientes para evitar el “escrapeo”. Por sites como Os oigo o Change.org se entiende que la información debe compartirse. Se han incluido en el diccionario de TIPI expresiones políticamente incorrectas como llamar viejos a los ancianos. Con los nuevos partidos, con organizaciones feministas, también han incorporado nuevos lenguajes para describir las nuevas realidades y contribuir a la creación de nuevos discursos. En españa es legal el “escrapeo” salvo en el poder judicial.
+
+* Github: https://github.com/ciecode-madrid/tipi
 
 ##Sisi Wei: [Propublica](http://www.propublica.org/)##
 
