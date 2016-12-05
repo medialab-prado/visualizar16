@@ -43,7 +43,7 @@ Bienvenidx al repositorio de [[http://medialab-prado.es/article/visualizar16-ciu
 - Web: http://gala.muimota.net
 
 ** Liqen
-- Web: http://liqenproject.org/#PRESENTATION
+- Web: http://liqenproject.org/
 - GitHub: https://github.com/crishernandezmaps/liqen-medialab
 
 ** Fab City Dashboard
@@ -57,6 +57,10 @@ Bienvenidx al repositorio de [[http://medialab-prado.es/article/visualizar16-ciu
 ** Mapa de Iniciativas Tecnopolíticas
 - Web: http://visualizar2016.apps4citizens.org/
 
+* Ponencias
+- Gonzalo Abril, [[https://github.com/medialab-prado/visualizar16/blob/master/ponencias/gonzalo_abril_low.pdf][Información, visualización: anotaciones profanas]]
+- Yuri Engelhardt, [[https://github.com/medialab-prado/visualizar16/blob/master/ponencias/yuri_engelhardt.pdf][A tour through the visualization zoo]]
+- Javier Pérez, [[https://github.com/medialab-prado/visualizar16/blob/master/ponencias/tipi.pdf][Ponencia de Tipi Ciudadano]]
 * Prensa
 - http://fablabbcn.org/news/2016/05/12/visualizar.html
 - http://www.makery.info/en/2016/09/27/le-medialab-de-makery-et-ping-a-visualizar16-open-cities/
